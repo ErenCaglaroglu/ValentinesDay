@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek Website</title>
+    <link rel="stylesheet" href="css.css"> <!-- Eğer bir CSS dosyanız varsa, burada bağlantı yapabilirsiniz -->
+    <style>
+        body {
+            background-image:url("2.png"); /* Arka plan resmini belirleyin */
+            background-size: cover; /* Arka plan resmini pencere boyutuna uyacak şekilde boyutlandır */
+            background-position: center; /* Arka plan resmini pencerenin ortasına yerleştir */
+            color: black; /* Yazı rengini beyaz yap */
+            font-family: Arial, sans-serif; /* Yazı tipini ayarla */
+            font-size: 20px; /* Yazı boyutunu ayarla */
+            padding: 20px; /* Sayfanın kenar boşluklarını ayarla */
+        }
+        header {
+            text-align: center; /* Başlığı merkezle */
+            margin-bottom: 20px; /* Başlık ile diğer içerikler arasına boşluk bırak */
+        }
+        section {
+            text-align: center; /* İçeriği merkezle */
+            font-family: "Arial Black";
+        }
+        img {
+            display: block; /* Resmi bir blok elementi olarak ayarla */
+            margin: auto; /* Resmi merkezlemek için otomatik kenar boşlukları ekle */
+            margin-bottom: 20px; /* Resmin altına biraz boşluk bırak */
+        }
+        button {
+            display: block; /* Butonu bir blok elementi olarak ayarla */
+            margin: auto; /* Butonu merkezlemek için otomatik kenar boşlukları ekle */
+            margin-top: 10px; /* Butonun üstüne biraz boşluk bırak */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Gönlümün Sultanı Hoş Geldiniz!</h1>
+</header>
+
+<section>
+    <h2>Bebeğin seni......</h2>
+    <p>Yukarıdaki boşluğa gelecek doğru şıkkı seçin.</p>
+    <p>Küçük not: Resimde sana yardımcı olacak bir ipucu var.</p>
+    <img src="1.gif" alt="Örnek Animasyon">
+    <h3>Seçenekler:</h3>
+    <button onclick="myFunction()">A) Seni çok seviyor</button>
+    <button onclick="myFunction2()">B) Seni sevmiyor</button>
+</section>
+
+<script>
+    function myFunction() {
+        window.open("https://www.youtube.com/watch?v=sSyiXfTZbEM&ab_channel=SonyMusicT%C3%BCrkiye");
+    }
+    function myFunction2() {
+        window.open("https://www.youtube.com/watch?v=uDeTc8ee8lc&ab_channel=B%C4%B1y%C4%B1kTV");
+    }
+</script>
+
+</body>
+</html>
